@@ -1,0 +1,68 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+@keyframes ondas {
+    from {background-position: 0% 0%;}
+    to {background-position: 100% 100% ;}
+}
+
+body {
+    height: 100vh;
+
+    background-image: url(../Fundo/symbol-scatter-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation: ondas 40s alternate-reverse infinite  linear;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa1 {
+    width: 60%;
+    padding: 20px;
+
+    background-color: #297ea6ca;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.caixa1 p {
+    display: inline-block;
+    margin: 10px;
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #001829;
+    display: inline-block;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color:  #001829;
+    color: aliceblue;
+}
