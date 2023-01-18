@@ -138,24 +138,6 @@ a:hover {
    }
 }
 
-@media (width <=350px) {
-
-    .bioCaixa, .caixa1{
-        width: 85%;
-       }
-
-    p {
-        font-size: 0.8em;
-    }
-
-    h1 {
-        font-size: 1em;
-    }
-
-    .bioCaixa p {
-        line-height: 10px;
-    }
-}
 
 @media (width <=350px) {
 
