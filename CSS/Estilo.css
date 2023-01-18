@@ -156,3 +156,41 @@ a:hover {
         line-height: 10px;
     }
 }
+
+@media (width <=350px) {
+
+    .bioCaixa, .caixa1{
+        width: 85%;
+       }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+
+    .bioCaixa p {
+        line-height: 10px;
+    }
+}
+
+@media (width <=290px) {
+
+    .bioCaixa, .caixa1{
+        width: 85%;
+       }
+
+    p {
+        font-size: 0.7em;
+    }
+
+    h1 {
+        font-size: 0.9em;
+    }
+
+    .bioCaixa p {
+        line-height: 10px;
+    }
+}
