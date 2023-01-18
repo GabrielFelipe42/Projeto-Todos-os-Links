@@ -25,8 +25,6 @@
 }
 
 body {
-    height: 100vh;
-
     background-image: url(../Fundo/symbol-scatter-haikei.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,7 +47,8 @@ p {
 
 .bioCaixa {
     width: 65%;
-    padding: 12px;
+    padding: 20px;
+    margin-top: 30px;
 
     background-color: #297ea6ca;
     border-radius: 10px;
@@ -57,6 +56,10 @@ p {
     color: aliceblue;
 
     margin: 10px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .bioCaixa h1 {
@@ -76,6 +79,7 @@ p {
 .caixa1 {
     width: 65%;
     padding: 10px;
+    margin-bottom: 10px;
 
     background-color: #297ea6ca;
     border-radius: 10px;
@@ -110,4 +114,26 @@ a {
 a:hover {
     background-color:  #001829;
     color: aliceblue;
+}
+
+@media (width <=500px) {
+   p {
+    font-size: 1em;
+   }
+
+   .bioCaixa, .caixa1{
+    width: 70%;
+   }
+
+   .bioCaixa h1 {
+    font-size: 1.3em;
+   }
+
+   .bioCaixa p {
+    line-height: 15px;
+   }
+
+   .caixa1 {
+    margin-bottom: 30px;
+   }
 }
