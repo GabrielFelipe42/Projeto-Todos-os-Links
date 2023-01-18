@@ -138,7 +138,7 @@ a:hover {
    }
 }
 
-@media (width <=300px) {
+@media (width <=350px) {
 
     .bioCaixa, .caixa1{
         width: 85%;
@@ -154,5 +154,5 @@ a:hover {
 
     .bioCaixa p {
         line-height: 10px;
-       }
+    }
 }
