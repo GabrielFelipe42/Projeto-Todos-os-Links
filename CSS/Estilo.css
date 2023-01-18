@@ -137,3 +137,17 @@ a:hover {
     margin-bottom: 30px;
    }
 }
+
+@media (width <=300px) {
+    p {
+        font-size: 0.8em;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+
+    .bioCaixa p {
+        line-height: 10px;
+       }
+}
